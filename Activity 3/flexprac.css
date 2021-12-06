@@ -1,0 +1,102 @@
+body
+{
+                    background:repeating-radial-gradient(red 5%,green 10%,pink 15%);
+}
+*
+{
+                    margin: 0px;
+                    padding: 0px;
+                    text-transform: capitalize;
+                    text-align: justify;
+}
+
+.a 
+{
+                    color:chartreuse;
+                    background-color: grey;
+                    height:100px;
+                    width:100%;
+                    line-height: 3;
+                    position: fixed;
+                    top:0px;
+                    left:0px;
+}
+.a>h1{
+                    transition: transform 3s linear;
+
+}
+.a>h1:hover{
+                    transform: rotatey(360deg) scale(2,2) translatex(600px);
+                    color: deeppink;
+}
+.maindiv
+{
+                    border:3px solid grey;
+                    width:80%;
+                    height: 1500px;
+                    display:flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    align-content: space-around;
+                    justify-content:space-around;
+                    margin-left: auto;
+                    margin-right:auto;
+                    margin-top:200px;
+                    background:radial-gradient(white,blue);
+}
+
+.div1,.div2,.div3,.div4,.div5,.div6
+{
+                    width:500px;
+                    height:400px;
+                    border:3px solid black;
+                    padding: 10px 20px;
+                    background-
+}
+.div1>h1,.div2>h1,.div3>h1,.div4>h1,.div5>h1,.div6>h1{
+                    text-align: center;
+}
+
+.div1,.div6
+{
+ background-color: chocolate;
+ transition:background-color 1s linear;
+}
+
+.div1:hover,.div6:hover
+{
+background-color:indigo;
+}
+
+
+
+.div2,.div5
+{
+background-color: darkcyan;
+transition:background-color 1s linear;
+}
+
+.div2:hover,.div5:hover{
+                    background-color: lawngreen;
+}
+.div3
+{
+                    background-color: darkred;
+                    transition:background-color 2s linear;
+}
+
+.div3:hover
+{
+                    background-color:orangered;
+}
+
+.div4
+{
+                    background-color: deeppink;
+                    transition:background-color 2s linear;
+}
+
+.div4:hover
+{
+                    background-color:teal;
+}
